@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-categories {
+    padding: 50px;
+    text-align: center;
+}
+
+.product-categories h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-item {
+    text-align: center;
+    width: 20%;
+}
+
+.featured-products {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item {
+    width: 30%;
+    text-align: center;
+}
+
+.about-us {
+    padding: 50px;
+    text-align: center;
+}
+
+.news {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.news h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.news-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-item {
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <!-- Logo here -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>Thế Giới Nội Thất Số 1 Việt Nam</h1>
+            <p>Không gian hoàn hảo cho gia đình bạn.</p>
+            <a href="#" class="cta-btn">Tìm hiểu thêm</a>
+        </div>
+        <div class="hero-image">
+            <!-- Main image here -->
+        </div>
+    </section>
+
+    <section class="product-categories">
+        <h2>Danh Mục Sản Phẩm</h2>
+        <div class="categories">
+            <div class="category-item">
+                <!-- Icon -->
+                <p>Bàn ghế</p>
+            </div>
+            <div class="category-item">
+                <!-- Icon -->
+                <p>Sofa</p>
+            </div>
+            <div class="category-item">
+                <!-- Icon -->
+                <p>Tủ quần áo</p>
+            </div>
+            <div class="category-item">
+                <!-- Icon -->
+                <p>Giường ngủ</p>
+            </div>
+            <!-- Add more category items -->
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h2>Sản Phẩm Nổi Bật</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <!-- Image -->
+                <p>Tên sản phẩm 1</p>
+            </div>
+            <div class="product-item">
+                <!-- Image -->
+                <p>Tên sản phẩm 2</p>
+            </div>
+            <div class="product-item">
+                <!-- Image -->
+                <p>Tên sản phẩm 3</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h2>Về Chúng Tôi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="about-images">
+                <!-- Add images here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <h2>Tin Tức</h2>
+        <div class="news-grid">
+            <div class="news-item">
+                <!-- News image -->
+                <p>Bài viết 1</p>
+            </div>
+            <div class="news-item">
+                <!-- News image -->
+                <p>Bài viết 2</p>
+            </div>
+            <div class="news-item">
+                <!-- News image -->
+                <p>Bài viết 3</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <!-- Footer logo -->
+            </div>
+            <div class="footer-info">
+                <p>Thông tin liên hệ</p>
+                <p>Email: info@example.com</p>
+                <p>Hotline: 0123456789</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
